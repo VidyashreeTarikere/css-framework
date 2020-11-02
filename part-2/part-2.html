@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a href="" class="navbar-brand">
+			<img src="https://s3-ap-southeast-1.amazonaws.com/sb-singleserver-prod-bucket/cd2d06cd12e23939e4798797478ae4d7/s_1505400418.jpg" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a href="" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a href="" class="nav-link">About</a>
+				</li>
+				<li class="nav-item active">
+					<a href="" class="nav-link">Services</a>
+				</li>
+				<li class="nav-item active">
+					<a href="" class="nav-link">Menu</a>
+				</li>
+				<li class="nav-item active">
+					<a href="" class="nav-link">Connect</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1" class="active"></li>
+		<li data-target="#slides" data-slide-to="2" class="active"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="https://images.unsplash.com/photo-1509358271058-acd22cc93898?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+			<div class="carousel-caption">
+				<h1 class="display-2 text-danger">IYER'S <span class="text-success">KITCHEN</span></h1>
+				<h3 class="text-light">Authentic South-Indian Food</h3>
+				<button type="button" class="btn btn-outline-primary btn-lg text-light">Festival Menu</button>
+				<button type="button" class="btn btn-primary btn-lg">Iyer's Spices</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="https://images.unsplash.com/photo-1591465619339-60fce055bc82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+		</div>
+		<div class="carousel-item">
+			<img src="https://images.unsplash.com/photo-1572314368000-3aa54c197ec3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolore nostrum quod perspiciatis natus, illum corporis quia, quaerat eum quidem maxime temporibus sit velit delectus totam odit unde, iusto quam!
+			</p>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href=""><button type="button" class="btn btn-outline-secondary btn-lg">Menu</button></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Food Paradise</h1>
+			<hr class="my-4">
+			<div class="col-12">
+				<p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum error illum suscipit, cumque aliquid veritatis quae ipsum pariatur doloribus repudiandae.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fa fa-hourglass-o"></i>
+				<h3>Jaggery</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fa fa-lemon-o"></i>
+				<h3>Tamarind</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<i class="fa fa-snowflake-o"></i>
+				<h3>Pepper</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>More detail...</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci saepe earum dicta iste. Quae a dicta quod aliquid dolorem incidunt deleniti fugiat sunt aperiam. Numquam sapiente esse expedita soluta doloremque, sunt consectetur inventore molestiae nisi praesentium magni iste in asperiores quaerat quis assumenda, hic optio minima ea quo consequuntur debitis voluptatibus eaque. Esse officia nemo veritatis vel deleniti ipsum. Odio illum perferendis incidunt earum, voluptate inventore ratione nihil quod cum ipsa dolore praesentium temporibus sed mollitia atque dicta, perspiciatis laudantium, dolor reprehenderit cumque. Amet maxime, neque eaque ratione earum et. Unde enim maxime minus quia quas modi repellat optio? Cumque.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat asperiores mollitia veniam sint fugit! Ad aperiam magni architecto tenetur, minima placeat ex beatae dolore alias!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam hic iste, perferendis facilis sed tenetur molestiae accusantium atque odio culpa iure dolorem, et tempore odit mollitia eius distinctio, fugiat perspiciatis ipsam. Culpa esse, cupiditate consectetur perspiciatis quibusdam rerum eligendi, sequi incidunt unde modi soluta blanditiis sint fuga quis quidem doloremque, quo omnis reiciendis odit tempore facilis nostrum iste magni voluptates? Perferendis possimus voluptate quam rerum aspernatur nemo quibusdam vero, minus consequuntur provident consequatur repellat nihil suscipit esse laudantium accusamus perspiciatis molestiae magnam similique ipsam beatae et! Aut impedit ex aliquid animi, vel repellendus commodi vero amet expedita, obcaecati ducimus?</p>
+			<br>
+			<a href="" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid" style="width: 1000px; height: 642px;">
+		</div>
+	</div>
+</div>
+
+<hr class="my-4">
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+
+		</div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
+	<div id="emoji" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-3">
+					<img src="https://media0.giphy.com/media/3XsniM1pgA5R6ZkCeX/100.webp?cid=ecf05e47p6n2acx1218sqvor5wibag73jcj48q8o2m4rfs6f&rid=100.webp" alt="" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="https://media2.giphy.com/media/xUySTRb9wlX3zSANWg/200w.webp?cid=ecf05e470gn9msogyntxgqfav84xiq5h4j72ij9q8qc3amxf&rid=200w.webp" alt="" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="https://media3.giphy.com/media/xUySTuw8Y0FQg9BAY0/100.webp?cid=ecf05e47ksqijgbta64df47qjsie68y79zobxm923ckdvgc2&rid=100.webp" alt="" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="https://media3.giphy.com/media/3otPoB0ORtXzReliso/100.webp?cid=ecf05e47kd8q8u8deels579ttj1un5euwsqmuanhz4wdew2f&rid=100.webp" alt="" class="gif">
+				</div>
+			</div>
+		</div>
+	</div>
+  
+<!--- Meet the team -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet The Team</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img src="https://images.unsplash.com/photo-1549083791-4a7e0f48be0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Iyer Thatha</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum.</p>
+					<a href="" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Iyer Mama</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum.</p>
+					<a href="" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="https://images.unsplash.com/photo-1603865699339-e7e7ef1399f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Iyer Mami</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum.</p>
+					<a href="" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>More Info</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci saepe earum dicta iste. Quae a dicta quod aliquid dolorem incidunt deleniti fugiat sunt aperiam. Numquam sapiente esse expedita soluta doloremque, sunt consectetur inventore molestiae nisi praesentium magni iste in asperiores quaerat quis assumenda, hic optio minima ea quo consequuntur debitis voluptatibus eaque. Esse officia nemo veritatis vel deleniti ipsum. Odio illum perferendis incidunt earum, voluptate inventore ratione nihil quod cum ipsa dolore praesentium temporibus sed mollitia atque dicta, perspiciatis laudantium, dolor reprehenderit cumque. Amet maxime, neque eaque ratione earum et. Unde enim maxime minus quia quas modi repellat optio? Cumque.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat asperiores mollitia veniam sint fugit! Ad aperiam magni architecto tenetur, minima placeat ex beatae dolore alias!</p>
+		</div>
+		<div class="col-lg-6">
+			<img src="https://images.unsplash.com/photo-1547200194-3221a43b88aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid" style="width: 1200px; height: 691px;">
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row padding text-center">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href=""><i class="fab fa-facebook"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+			<a href=""><i class="fab fa-google-plus-g"></i></a>
+			<a href=""><i class="fab fa-instagram"></i></a>
+			<a href=""><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="https://s3-ap-southeast-1.amazonaws.com/sb-singleserver-prod-bucket/cd2d06cd12e23939e4798797478ae4d7/s_1505400418.jpg" alt="" style="width: 190px; height: 55px;">
+				<hr class="light">
+				<p>999-000-9090</p>
+				<p>iyers@gmail.com</p>
+				<p>99 Iyer Street</p>
+				<p>Mysuru</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our Hours</h5>
+				<hr class="light">
+				<p>Monday to Friday: 6am - 10am</p>
+				<p>Saturday: 6am - 2pm</p>
+				<p>Sunday: 7am - 7pm</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service Area</h5>
+				<hr class="light">
+				<p>Mysuru</p>
+				<p>Bangalore</p>
+				<p>Belgium</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; iyerssskitchen.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+
+
+
+
+<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
+
+<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
+
+
